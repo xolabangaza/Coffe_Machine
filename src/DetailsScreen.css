@@ -1,0 +1,28 @@
+.details-container {
+    padding: 20px;
+    background-color: #f8f5f2;
+  }
+  
+  .details-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .options, .size-options, .quantity, .price {
+    margin: 15px 0;
+  }
+  
+  button {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .buy-button {
+    background-color: #b58460;
+    color: white;
+    padding: 10px 20px;
+  }
+  
