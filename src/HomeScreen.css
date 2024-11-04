@@ -1,7 +1,3 @@
-*{
-    padding: 18px;
-}
-
 body{
     /* padding: 20px; */
     background-color: #f8f5f2;
@@ -12,33 +8,41 @@ body{
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    margin-top: 30px;
+
   }
   .home-heading{
     color: #ca8451;
     font-size: 30px;
+    padding: 20px;
   }
   .search-input {
-    width: 80%;
-    padding: 10px;
+    width: 40%;
+    height: 30px;
+    /* padding: 0px; */
     border-radius: 20px;
     border: 1px solid rgb(187, 150, 82);
     background: rgba(252, 236, 207, 0.5);
-    margin-top: 10px;
+    margin-top: 30px;
   }
   
   .coffee-categories {
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
+    
   }
   
-  .coffee-categories button {
-    background-color: #b58460;
-    color: white;
+  .coffee-categories .categories {
+    color: #b58460;
+    /* color: white; */
     padding: 5px 15px;
-    border-radius: 20px;
-    border: none;
+    /* border-radius: 20px; */
+    border-bottom: 2px solid #d4854c;
     cursor: pointer;
+    height: 20px;
+    width: 5.5%;
+    font-size: 18px;
   }
   
   .coffee-grid {
@@ -49,26 +53,39 @@ body{
   }
   
   .coffee-item {
-    background-color: white;
-    border: 1px solid #b58460;
+    /* background-color:white; */
+    box-shadow: 10px 6px 15px rgb(219, 216, 216);
+    /* border: 1px solid #b58460; */
     border-radius: 21px;
     padding: 10px;
     text-align: center;
     width: 250px;
     height: 300px;
+    margin-top: 20px;
   }
   
   .coffee-img {
-    width: 100%;
-    border-radius: 30px;
+    width: 94%;
+    border-radius: 20px;
+    margin-top: 10px;
   }
   
+  p{
+    font-size: 19px;
+  }
+.price{
+    font-weight: bold;
+}
   .add-btn{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    /* padding: 36px; */
     background-color: #b58460;
+    color: wheat;
     position: relative;
-    left: 67px;
-    top: 16px;
-    padding: 16px;
+    left: 85px;
+    top: 70px;
     border-top-right-radius: 0;
     border-bottom-left-radius: 0;
     border-top-left-radius: 17px;

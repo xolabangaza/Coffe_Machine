@@ -10,35 +10,35 @@ const HomeScreen = () => {
         <input type="text" placeholder="Find your coffee..." className="search-input" />
       </header>
       <section className="coffee-categories">
-        <button>Espresso</button>
-        <button>Latte</button>
-        <button>Cappuccino</button>
-        <button>Hot Chocolate</button>
+        <span className='categories'>Espresso</span>
+        <span className='categories'>Latte</span>
+        <span className='categories'>Cappuccino</span>
+        <span className='categories'>Hot Chocolate</span>
       </section>
       <section className="coffee-grid">
         {/* Example Coffee Item */}
         <div className="coffee-item">
           <img src={Espresso} alt="Espresso" className="coffee-img" />
           <p>Espresso</p>
-          <span>$4.20</span>
+          <span className='price'>R4.20</span>
+          <button className='add-btn'>+</button>
+        </div> 
+        <div className="coffee-item">
+          <img src={Espresso} alt="Espresso" className="coffee-img" />
+          <p>Espresso</p>
+          <span className='price'>R4.20</span>
           <button className='add-btn'>+</button>
         </div>
         <div className="coffee-item">
           <img src={Espresso} alt="Espresso" className="coffee-img" />
           <p>Espresso</p>
-          <span>$4.20</span>
+          <span className='price'>R4.20</span>
           <button className='add-btn'>+</button>
         </div>
         <div className="coffee-item">
           <img src={Espresso} alt="Espresso" className="coffee-img" />
           <p>Espresso</p>
-          <span>$4.20</span>
-          <button className='add-btn'>+</button>
-        </div>
-        <div className="coffee-item">
-          <img src={Espresso} alt="Espresso" className="coffee-img" />
-          <p>Espresso</p>
-          <span>$4.20</span>
+          <span className='price'>R4.20</span>
           <button className='add-btn'>+</button>
         </div>
       </section>
@@ -47,25 +47,25 @@ const HomeScreen = () => {
         <div className="coffee-item">
           <img src={Espresso} alt="Espresso" className="coffee-img" />
           <p>Espresso</p>
-          <span>$4.20</span>
+          <span className='price'>R4.20</span>
           <button className='add-btn'>+</button>
         </div>
         <div className="coffee-item">
           <img src={Espresso} alt="Espresso" className="coffee-img" />
           <p>Espresso</p>
-          <span>$4.20</span>
+          <span className='price'>R4.20</span>
           <button className='add-btn'>+</button>
         </div>
         <div className="coffee-item">
           <img src={Espresso} alt="Espresso" className="coffee-img" />
           <p>Espresso</p>
-          <span>$4.20</span>
+          <span className='price'>R4.20</span>
           <button className='add-btn'>+</button>
         </div>
         <div className="coffee-item">
           <img src={Espresso} alt="Espresso" className="coffee-img" />
           <p>Espresso</p>
-          <span>$4.20</span>
+          <span>R4.20</span>
           <button className='add-btn'>+</button>
         </div>
       </section>

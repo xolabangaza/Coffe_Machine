@@ -1,8 +1,9 @@
 *{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 0 !important;
+    /* box-sizing: border-box; */
 }
+
 
 .splash-container {
     display: flex;
@@ -18,7 +19,7 @@
   }
   
   .message{
-    padding: 20px;
+    padding: 20px !important;
     font-size: large;
   }
 .heading{
@@ -30,7 +31,7 @@
     background-color: #b58460;
     color: white;
     margin-top: 15px;
-    padding: 15px 25px;
+    padding: 15px 25px !important;
     border-radius: 20px;
     border: none;
     cursor: pointer;
