@@ -40,7 +40,7 @@ body{
     /* border-radius: 20px; */
     border-bottom: 2px solid #d4854c;
     cursor: pointer;
-    height: 20px;
+    height: 25px;
     width: 5.5%;
     font-size: 18px;
   }
@@ -69,13 +69,19 @@ body{
     border-radius: 20px;
     margin-top: 10px;
   }
-  
+  .latte{
+    height: 155px;
+  }
+  .title{
+    font-size: 19px;
+    margin-top: 20px;
+  }
 
 .price{
     font-weight: bold;
     font-size: 20px;
     position: relative;
-    top: 60px;
+    top: 50px;
     right: 40px;
 }
   .add-btn{
@@ -87,7 +93,7 @@ body{
     color: wheat;
     position: relative;
     left: 80px;
-    top: 72px;
+    top: 48px;
     border-top-right-radius: 0;
     border-bottom-left-radius: 0;
     border-top-left-radius: 17px;

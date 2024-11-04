@@ -1,6 +1,7 @@
 import React from 'react';
 import './HomeScreen.css';
 import Espresso from './assets/espresso.png'
+import Latte from './assets/Latte.png'
 
 const HomeScreen = () => {
   return (
@@ -19,25 +20,25 @@ const HomeScreen = () => {
         {/* Example Coffee Item */}
         <div className="coffee-item">
           <img src={Espresso} alt="Espresso" className="coffee-img" />
-          <p>Espresso</p>
+          <p className='title'>Espresso</p>
           <span className='price'>R4.20</span>
           <button className='add-btn'>+</button>
         </div> 
         <div className="coffee-item">
-          <img src={Espresso} alt="Espresso" className="coffee-img" />
-          <p>Espresso</p>
+          <img src={Latte} alt="Espresso" className="coffee-img latte" />
+          <p className='title'>Espresso</p>
           <span className='price'>R4.20</span>
           <button className='add-btn'>+</button>
         </div>
         <div className="coffee-item">
           <img src={Espresso} alt="Espresso" className="coffee-img" />
-          <p>Espresso</p>
+          <p className='title'>Espresso</p>
           <span className='price'>R4.20</span>
           <button className='add-btn'>+</button>
         </div>
         <div className="coffee-item">
-          <img src={Espresso} alt="Espresso" className="coffee-img" />
-          <p>Espresso</p>
+          <img src={Latte} alt="Espresso" className="coffee-img latte" />
+          <p className='title'>Espresso</p>
           <span className='price'>R4.20</span>
           <button className='add-btn'>+</button>
         </div>
@@ -46,26 +47,26 @@ const HomeScreen = () => {
         {/* Example Coffee Item */}
         <div className="coffee-item">
           <img src={Espresso} alt="Espresso" className="coffee-img" />
-          <p>Espresso</p>
+          <p className='title'>Espresso</p>
+          <span className='price'>R4.20</span>
+          <button className='add-btn'>+</button>
+        </div>
+        <div className="coffee-item">
+          <img src={Latte} alt="Espresso" className="coffee-img latte" />
+          <p className='title'>Espresso</p>
           <span className='price'>R4.20</span>
           <button className='add-btn'>+</button>
         </div>
         <div className="coffee-item">
           <img src={Espresso} alt="Espresso" className="coffee-img" />
-          <p>Espresso</p>
+          <p className='title'>Espresso</p>
           <span className='price'>R4.20</span>
           <button className='add-btn'>+</button>
         </div>
         <div className="coffee-item">
-          <img src={Espresso} alt="Espresso" className="coffee-img" />
-          <p>Espresso</p>
+          <img src={Latte} alt="Espresso" className="coffee-img latte" />
+          <p className='title'>Espresso</p>
           <span className='price'>R4.20</span>
-          <button className='add-btn'>+</button>
-        </div>
-        <div className="coffee-item">
-          <img src={Espresso} alt="Espresso" className="coffee-img" />
-          <p>Espresso</p>
-          <span>R4.20</span>
           <button className='add-btn'>+</button>
         </div>
       </section>
