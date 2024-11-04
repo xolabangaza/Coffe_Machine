@@ -70,11 +70,13 @@ body{
     margin-top: 10px;
   }
   
-  p{
-    font-size: 19px;
-  }
+
 .price{
     font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: 60px;
+    right: 40px;
 }
   .add-btn{
     height: 40px;
@@ -84,8 +86,8 @@ body{
     background-color: #b58460;
     color: wheat;
     position: relative;
-    left: 85px;
-    top: 70px;
+    left: 80px;
+    top: 72px;
     border-top-right-radius: 0;
     border-bottom-left-radius: 0;
     border-top-left-radius: 17px;
