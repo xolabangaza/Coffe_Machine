@@ -46,10 +46,12 @@ body{
   }
   
   .coffee-grid {
+    width: 60%;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
+    margin: auto;
   }
   
   .coffee-item {

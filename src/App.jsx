@@ -1,4 +1,3 @@
-// App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SplashScreen from './SplashScreen';
@@ -11,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<SplashScreen />} />
         <Route path="/home" element={<HomeScreen />} />
-        <Route path="/details" element={<DetailsScreen />} />
+        <Route path="/DetailsScreen" element={<DetailsScreen />} />
       </Routes>
     </Router>
   );
