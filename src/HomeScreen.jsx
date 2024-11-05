@@ -27,12 +27,12 @@ const HomeScreen = () => {
         <input type="text" placeholder="Find your coffee..." className="search-input" />
       </header>
       <section className="coffee-categories">
-        {/* Clickable categories to filter products */}
-        {['Espresso', 'Latte', 'Cappuccino', 'Hot Chocolate'].map(category => (
+        {/* Adding an "All" category to display all products */}
+        {['All', 'Espresso', 'Latte', 'Cappuccino', 'Hot Chocolate'].map(category => (
           <span 
             key={category} 
             className='categories' 
-            onClick={() => setSelectedCategory(category)}
+            onClick={() => setSelectedCategory(category === 'All' ? '' : category)}
           >
             {category}
           </span>
