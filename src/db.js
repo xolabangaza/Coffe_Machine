@@ -1,7 +1,8 @@
 // db.js
 import espressoImage from './assets/espresso.png';
 import latteImage from './assets/Latte.png';
-
+import cappucino from './assets/cappucino.png'
+import hotchoc from './assets/hotchoc.jpeg'
 const products = [
   {
     id: 1,
@@ -28,7 +29,7 @@ const products = [
   {
     id: 3,
     name: "Cappuccino",
-    image: espressoImage,
+    image: cappucino,
     description: "Classic cappuccino with a rich layer of foam.",
     price: 4.75,
     options: {
@@ -39,7 +40,7 @@ const products = [
   {
     id: 4,
     name: "Hot Chocolate",
-    image: latteImage,
+    image: hotchoc,
     description: "Rich and warm hot chocolate made with real cocoa.",
     price: 3.50,
     options: {

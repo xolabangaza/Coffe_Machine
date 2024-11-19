@@ -38,11 +38,13 @@ body{
     /* color: white; */
     padding: 5px 15px;
     /* border-radius: 20px; */
-    border-bottom: 2px solid #d4854c;
     cursor: pointer;
     height: 25px;
     width: 5.5%;
     font-size: 18px;
+  }
+  .active-category {
+    border-bottom: 2px solid #d4854c;
   }
   
   .coffee-grid {
@@ -101,3 +103,8 @@ body{
     border-top-left-radius: 17px;
     border-bottom-right-radius: 17px;
   }
+
+  
+  /* .d-block{
+    height: 100px;
+  } */

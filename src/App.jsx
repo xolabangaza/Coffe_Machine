@@ -1,14 +1,17 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import SplashScreen from './SplashScreen';
+import Navbar from './Navbar';
+import Hero from './Hero';
+// import SplashScreen from './SplashScreen';
 import HomeScreen from './HomeScreen';
 import DetailsScreen from './DetailsScreen';
 
 function App() {
   return (
     <Router>
+      <Navbar/>
       <Routes>
-        <Route path="/" element={<SplashScreen />} />
+        <Route path="/" element={<Hero />} />
         <Route path="/home" element={<HomeScreen />} />
         <Route path="/DetailsScreen" element={<DetailsScreen />} />
       </Routes>

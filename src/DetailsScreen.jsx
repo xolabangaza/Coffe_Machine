@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import './DetailsScreen.css';
 import products from './db'; // Import products array
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import { faBagShopping } from '@fortawesome/free-solid-svg-icons';
 
 const DetailsScreen = () => {
   const [product, setProduct] = useState(null);
@@ -23,8 +25,10 @@ const DetailsScreen = () => {
   if (!product) return <div>Loading...</div>; // Optional loading state
 
   return (
+    <div className="container">
     <div className="details-container">
       <img src={product.image} alt={product.name} className="details-img" />
+      <div className="coffeDetails">
       <h2>{product.name}</h2>
       <p>{product.description}</p>
       <div className="options">
@@ -34,11 +38,11 @@ const DetailsScreen = () => {
             <button key={choco} onClick={() => setChocolate(choco)}>{choco}</button>
           ))}
         </div>
-      </div>
+     
       <div className="size-options">
         <h4>Size</h4>
         {product.options.size.map(s => (
-          <button key={s} onClick={() => setSize(s)}>{s}</button>
+          <button className='size' key={s} onClick={() => setSize(s)}>{s}</button>
         ))}
       </div>
       <div className="quantity">
@@ -46,10 +50,14 @@ const DetailsScreen = () => {
         <span>{quantity}</span>
         <button onClick={increaseQuantity}>+</button>
       </div>
+      </div>
       <div className="price">
         <h2>R{(product.price * quantity).toFixed(2)}</h2>
+        <FontAwesomeIcon icon={faBagShopping} className="my-icon" />
         <button className="buy-button">Buy Now</button>
+        </div>
       </div>
+    </div>
     </div>
   );
 };
