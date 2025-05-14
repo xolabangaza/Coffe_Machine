@@ -22,7 +22,6 @@ const products = [
     description: "Smooth and creamy latte topped with milk foam.",
     price: 4.50,
     options: {
-      chocolate: ["White Chocolate", "Milk Chocolate", "Dark Chocolate"],
       size: ["S", "M", "L"]
     }
   },
@@ -39,7 +38,7 @@ const products = [
   },
   {
     id: 4,
-    name: "Hot Chocolate",
+    name: "Hot_Chocolate",
     image: hotchoc,
     description: "Rich and warm hot chocolate made with real cocoa.",
     price: 3.50,
@@ -66,7 +65,6 @@ const products = [
     description: "Smooth and creamy latte topped with milk foam.",
     price: 4.50,
     options: {
-      chocolate: ["White Chocolate", "Milk Chocolate", "Dark Chocolate"],
       size: ["S", "M", "L"]
     }
   },
@@ -83,8 +81,8 @@ const products = [
   },
   {
     id: 8,
-    name: "Hot Chocolate",
-    image: latteImage,
+    name: "Hot_Chocolate",
+    image: hotchoc,
     description: "Rich and warm hot chocolate made with real cocoa.",
     price: 3.50,
     options: {
@@ -92,7 +90,50 @@ const products = [
       size: ["S", "M", "L"]
     }
   },
-  // Add more products as needed
+  {
+    id: 9,
+    name: "Hot_Chocolate",
+    image: hotchoc,
+    description: "Rich and warm hot chocolate made with real cocoa.",
+    price: 3.50,
+    options: {
+      chocolate: ["White Chocolate", "Milk Chocolate", "Dark Chocolate"],
+      size: ["S", "M", "L"]
+    }
+  },
+  {
+    id: 10,
+    name: "Hot_Chocolate",
+    image: hotchoc,
+    description: "Rich and warm hot chocolate made with real cocoa.",
+    price: 3.50,
+    options: {
+      chocolate: ["White Chocolate", "Milk Chocolate", "Dark Chocolate"],
+      size: ["S", "M", "L"]
+    }
+  },
+  {
+    id: 11,
+    name: "Hot_Chocolate",
+    image: hotchoc,
+    description: "Rich and warm hot chocolate made with real cocoa.",
+    price: 3.50,
+    options: {
+      chocolate: ["White Chocolate", "Milk Chocolate", "Dark Chocolate"],
+      size: ["S", "M", "L"]
+    }
+  },
+  {
+    id: 8,
+    name: "Hot_Chocolate",
+    image: hotchoc,
+    description: "Rich and warm hot chocolate made with real cocoa.",
+    price: 3.50,
+    options: {
+      chocolate: ["White Chocolate", "Milk Chocolate", "Dark Chocolate"],
+      size: ["S", "M", "L"]
+    }
+  },
 ];
 
 export default products;

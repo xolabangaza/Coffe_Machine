@@ -12,13 +12,14 @@ body{
 
   }
   .home-heading{
+    margin-top: 50px;
     color: #ca8451;
     font-size: 30px;
     padding: 20px;
   }
   .search-input {
     width: 40%;
-    height: 30px;
+    height: 45px;
     /* padding: 0px; */
     border-radius: 20px;
     border: 1px solid rgb(187, 150, 82);
@@ -26,6 +27,10 @@ body{
     margin-top: 30px;
   }
   
+  .search-input:focus{
+    border: 1px solid wheat;
+  }
+
   .coffee-categories {
     display: flex;
     justify-content: space-around;
@@ -48,7 +53,7 @@ body{
   }
   
   .coffee-grid {
-    width: 60%;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -57,14 +62,14 @@ body{
   }
   
   .coffee-item {
-    /* background-color:white; */
-    box-shadow: 10px 6px 15px rgb(219, 216, 216);
+    background-color:#ebdcd14b;
+    box-shadow: 7px 4px 13px rgb(219, 216, 216);
     /* border: 1px solid #b58460; */
     border-radius: 21px;
     padding: 10px;
     text-align: center;
     width: 250px;
-    height: 300px;
+    height: 310px;
     margin-top: 20px;
   }
   
@@ -96,8 +101,9 @@ body{
     background-color: #b58460;
     color: wheat;
     position: relative;
-    left: 80px;
+    left: 81px;
     top: 48px;
+    border: 1px solid #b58460;
     border-top-right-radius: 0;
     border-bottom-left-radius: 0;
     border-top-left-radius: 17px;

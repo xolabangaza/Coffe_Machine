@@ -14,21 +14,22 @@ const Hero = () => {
   
   const styles = {
     container: {
-      width: "40vw", // Make the container 40% of the viewport width
-      height: "100vh", // Full height of the viewport
+      width: "40vw", 
+      height: "100vh", 
       display: "flex",
-      justifyContent: "flex-start", // Align content to the left
-      alignItems: "stretch", // Ensure it fills the container height
-      backgroundColor: "#f0f0f0", // Light background for visibility
+      justifyContent: "flex-start",
+      alignItems: "stretch", 
+      backgroundColor: "#f0f0f0", 
     },
     svg: {
-      width: "100%", // Ensure SVG fills the container's width
-      height: "100%", // Ensure SVG stretches to full height
+      width: "100%", 
+      height: "100%", 
     },
   };
   
 
   return (
+    
     <div className="bigH">
     <section className="hero">
       <div className="hero-text">
